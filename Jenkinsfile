@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE = "hello-world-app"
         DOCKER_REGISTRY = "tauqeerdocker" // Docker Hub registry
         DOCKER_HUB_USERNAME = "tauqeerahmad104@gmail.com" // Replace with your Docker Hub username
-        DOCKER_HUB_CREDENTIALS_ID = "104@Tapak!!"
+        DOCKER_HUB_CREDENTIALS_ID = ""
         KUBECONFIG_CREDENTIALS_ID = "k8s-service-account"
         KUBERNETES_NAMESPACE = "jenkins" // or your specific namespace
     }
